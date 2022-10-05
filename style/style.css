@@ -57,7 +57,7 @@ a:active {
   justify-content: center;
   padding-top: 9.375rem;
   gap: 21.875rem;
-  height: 100vh;
+  height: 97vh;
 }
 .first-section .texto {
   font-weight: 700;
@@ -87,6 +87,7 @@ a:active {
   background-color: #202020;
   gap: 2.5rem;
   padding-bottom: 7.5rem;
+  height: 90vh;
 }
 .techstack .tech {
   color: #cccccc;
