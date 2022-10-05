@@ -1,0 +1,229 @@
+header {
+  background-color: #202020;
+  padding: 0 1.25rem;
+  padding-top: 1.25rem;
+
+ 
+}
+.container-fluid-custom {
+    padding: 0 1.25rem !important;
+  }
+a:link {
+    color: #a7a7a7;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #a7a7a7;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #ff00ffad !important;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  }
+
+.navbar-nav-custom {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+
+  .nav-item-custom a {
+    font-size: 1.25rem;
+    color: #a7a7a7;
+  }
+}
+.logo-dev {
+  display: flex;
+  flex-direction: column;
+ 
+  font-size: 4.5rem;
+  background: -webkit-linear-gradient(#00C0FD, #E70FAA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    h1{
+      text-align: center;
+      font-size: 1.75rem;
+    }
+}
+.first-section {
+  background-color: #202020;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 9.375rem;
+  gap: 21.875rem;
+  height: 100vh;
+  .texto {
+    font-weight: 700;
+    font-size: 3.625rem;
+    line-height: 4.375rem;
+
+    letter-spacing: -0.0625rem;
+    color: #d9d9d9;
+  }
+
+  .me img {
+    margin-top: 3.125rem;
+    width: 12.5rem;
+    height: 12.5rem;
+    object-fit: cover;
+    border-radius: 100%;
+    max-width: 15.625rem;
+    padding: .0625rem;
+    position: relative;
+    background: linear-gradient(to right, red, purple);
+    padding: .1875rem;
+  }
+}
+.techstack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #202020;
+  gap: 2.5rem;
+  padding-bottom: 7.5rem;
+  .tech {
+    color: #cccccc;
+    text-align: center;
+  }
+  .icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5625rem;
+    max-width: 37.5rem;
+  }
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #202020;
+  gap: 2.5rem;
+  height: fit-content;
+
+  .projetos {
+    color: #cccccc;
+    text-align: center;
+  }
+}
+
+// -----------------------------CARDS-----------------
+.cards{
+    border: none;
+    display: flex ;
+    flex-wrap: wrap;
+    gap: 2.5rem; 
+    width: 100%;
+    max-width: 75rem;
+
+    justify-content: center;
+    
+}
+.card-custom {
+  height: 21.875rem !important;
+  width:18.75rem;
+  background-color: #a7a7a700 !important;
+//   margin-bottom: ;
+
+  .card-body-custom{
+    background-color: #e3e3e3;
+    border-bottom-left-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem ;
+    text-align: center;
+        
+
+  }
+    img{
+        border-top-left-radius: 1.25rem;
+        border-top-right-radius: 1.25rem ;
+        height: 10rem !important;
+        width:18.625rem;
+        object-fit: cover;
+     
+    }
+  .btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+  }
+}
+
+.btn-custom{
+    background-color:#e2e2e2 !important; 
+    color: #202020!important;
+    top: 0 !important;
+    position: sticky!important;
+    
+
+.btn-custom:hover{
+    background-color: #20202071!important;
+    color: #ff00ffad !important;
+  
+}
+}
+footer{
+  
+    padding-top: 9.375rem;
+    height: fit-content;
+    background-color: #202020;
+    .contato{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
+        gap: 4.375rem;
+        padding: .625rem 7.5rem;
+      .socials{
+        display: flex;
+        gap: 1.25rem;
+      }
+    } 
+    hr{
+      width: 100%;
+      max-width: 90%;
+      height: .125rem;
+      color: #cccccc;
+      margin: 0rem 5.625rem;
+    
+    }
+ 
+}
+.menus-f ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 2.5rem;
+  color: #cccccc;
+  padding: 1.25rem 5.625rem;
+  font-size: 1.25rem;
+}
+
+@media (max-width:75.625rem){
+  .first-section{
+    gap: 10px ;
+    .texto{
+      font-size: 40px;
+      padding: 0px 30px;
+    }
+  .me img{
+    margin-top: .625rem !important;
+  }
+}
+}
+@media (max-width:529px){
+  .contato{
+    display: flex;
+    flex-direction: column;
+ 
+
+}
+}
+
+

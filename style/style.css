@@ -1,0 +1,219 @@
+header {
+  background-color: #202020;
+  padding: 0 1.25rem;
+  padding-top: 1.25rem;
+}
+
+.container-fluid-custom {
+  padding: 0 1.25rem !important;
+}
+
+a:link {
+  color: #a7a7a7;
+}
+
+/* visited link */
+a:visited {
+  color: #a7a7a7;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgba(255, 0, 255, 0.6784313725) !important;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+
+.navbar-nav-custom {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+.navbar-nav-custom .nav-item-custom a {
+  font-size: 1.25rem;
+  color: #a7a7a7;
+}
+
+.logo-dev {
+  display: flex;
+  flex-direction: column;
+  font-size: 4.5rem;
+  background: -webkit-linear-gradient(#00C0FD, #E70FAA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logo-dev h1 {
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+.first-section {
+  background-color: #202020;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 9.375rem;
+  gap: 21.875rem;
+  height: 100vh;
+}
+.first-section .texto {
+  font-weight: 700;
+  font-size: 3.625rem;
+  line-height: 4.375rem;
+  letter-spacing: -0.0625rem;
+  color: #d9d9d9;
+}
+.first-section .me img {
+  margin-top: 3.125rem;
+  width: 12.5rem;
+  height: 12.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+  max-width: 15.625rem;
+  padding: 0.0625rem;
+  position: relative;
+  background: linear-gradient(to right, red, purple);
+  padding: 0.1875rem;
+}
+
+.techstack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #202020;
+  gap: 2.5rem;
+  padding-bottom: 7.5rem;
+}
+.techstack .tech {
+  color: #cccccc;
+  text-align: center;
+}
+.techstack .icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5625rem;
+  max-width: 37.5rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #202020;
+  gap: 2.5rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.projects .projetos {
+  color: #cccccc;
+  text-align: center;
+}
+
+.cards {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  width: 100%;
+  max-width: 75rem;
+  justify-content: center;
+}
+
+.card-custom {
+  height: 21.875rem !important;
+  width: 18.75rem;
+  background-color: rgba(167, 167, 167, 0) !important;
+}
+.card-custom .card-body-custom {
+  background-color: #e3e3e3;
+  border-bottom-left-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+  text-align: center;
+}
+.card-custom img {
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+  height: 10rem !important;
+  width: 18.625rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card-custom .btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+
+.btn-custom {
+  background-color: #e2e2e2 !important;
+  color: #202020 !important;
+  top: 0 !important;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+}
+.btn-custom .btn-custom:hover {
+  background-color: rgba(32, 32, 32, 0.4431372549) !important;
+  color: rgba(255, 0, 255, 0.6784313725) !important;
+}
+
+footer {
+  padding-top: 9.375rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #202020;
+}
+footer .contato {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 4.375rem;
+  padding: 0.625rem 7.5rem;
+}
+footer .contato .socials {
+  display: flex;
+  gap: 1.25rem;
+}
+footer hr {
+  width: 100%;
+  max-width: 90%;
+  height: 0.125rem;
+  color: #cccccc;
+  margin: 0rem 5.625rem;
+}
+
+.menus-f ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 2.5rem;
+  color: #cccccc;
+  padding: 1.25rem 5.625rem;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 75.625rem) {
+  .first-section {
+    gap: 10px;
+  }
+  .first-section .texto {
+    font-size: 40px;
+    padding: 0px 30px;
+  }
+  .first-section .me img {
+    margin-top: 0.625rem !important;
+  }
+}
+@media (max-width: 529px) {
+  .contato {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
