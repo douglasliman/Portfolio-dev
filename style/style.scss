@@ -222,9 +222,21 @@ footer{
   .contato{
     display: flex;
     flex-direction: column;
- 
+    align-items: center!important;
+   
 
 }
 }
 
+@media (max-width:426px){
+  .icons{
+    width: 300px!important;
+  }
+  .menus-f ul{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+}
 
