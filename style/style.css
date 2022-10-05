@@ -58,6 +58,10 @@ a:active {
   padding-top: 9.375rem;
   gap: 21.875rem;
   height: 97vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 50px;
 }
 .first-section .texto {
   font-weight: 700;
@@ -87,7 +91,10 @@ a:active {
   background-color: #202020;
   gap: 2.5rem;
   padding-bottom: 7.5rem;
-  height: 90vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 50px;
 }
 .techstack .tech {
   color: #cccccc;
@@ -131,6 +138,13 @@ a:active {
   height: 21.875rem !important;
   width: 18.75rem;
   background-color: rgba(167, 167, 167, 0) !important;
+  background-image: linear-gradient(90deg, #9572FC 0%, rgb(190, 36, 190) 50.52%, #E2D45C 100%);
+  padding-top: 2px;
+  padding-left: 2px;
+  border-top-left-radius: 1.25rem !important;
+  border-top-right-radius: 1.25rem !important;
+  border-bottom-left-radius: 1.45rem !important;
+  border-bottom-right-radius: 1.45rem !important;
 }
 .card-custom .card-body-custom {
   background-color: #e3e3e3;
@@ -198,6 +212,7 @@ footer hr {
   color: #cccccc;
   padding: 1.25rem 5.625rem;
   font-size: 1.25rem;
+  margin-bottom: 0 !important;
 }
 
 @media (max-width: 75.625rem) {
@@ -210,6 +225,9 @@ footer hr {
   }
   .first-section .me img {
     margin-top: 0.625rem !important;
+  }
+  ul {
+    margin-bottom: 0 !important;
   }
 }
 @media (max-width: 529px) {
@@ -227,5 +245,6 @@ footer hr {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0 !important;
   }
 }/*# sourceMappingURL=style.css.map */
