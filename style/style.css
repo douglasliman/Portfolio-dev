@@ -230,6 +230,10 @@ footer hr {
     margin-bottom: 0 !important;
   }
 }
+hr {
+  display: none;
+}
+
 @media (max-width: 529px) {
   .contato {
     display: flex;
