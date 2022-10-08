@@ -57,10 +57,10 @@ a:active {
   justify-content: center;
   padding-top: 9.375rem;
   gap: 21.875rem;
-  height: 97vh;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 87vh;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
   padding-bottom: 50px;
 }
 .first-section .texto {
@@ -91,9 +91,10 @@ a:active {
   background-color: #202020;
   gap: 2.5rem;
   padding-bottom: 7.5rem;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 97vh;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
   padding-bottom: 50px;
 }
 .techstack .tech {
@@ -156,7 +157,7 @@ a:active {
   border-top-left-radius: 1.25rem;
   border-top-right-radius: 1.25rem;
   height: 10rem !important;
-  width: 18.625rem;
+  width: 296px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -228,6 +229,12 @@ footer hr {
   }
   ul {
     margin-bottom: 0 !important;
+  }
+  .contato {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1 red;
   }
 }
 hr {

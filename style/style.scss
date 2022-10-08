@@ -58,8 +58,8 @@ a:link {
   justify-content: center;
   padding-top: 9.375rem;
   gap: 21.875rem;
-  height: 97vh;
-  height: fit-content;
+  height: 87vh;
+  min-height: fit-content;
   padding-bottom: 50px;
   .texto {
     font-weight: 700;
@@ -90,7 +90,8 @@ a:link {
   background-color: #202020;
   gap: 2.5rem;
   padding-bottom: 7.5rem;
-  height: fit-content;
+  height: 97vh;
+  min-height: fit-content;
   padding-bottom: 50px;
   .tech {
     color: #cccccc;
@@ -158,7 +159,7 @@ background-image: linear-gradient(90deg,  #9572FC 0%,rgb(190, 36, 190) 50.52%, #
         border-top-left-radius: 1.25rem;
         border-top-right-radius: 1.25rem ;
         height: 10rem !important;
-        width:18.625rem;
+        width:296px;
         object-fit: cover;
      
     }
@@ -234,7 +235,12 @@ footer{
   ul{
     margin-bottom: 0 !important;
   }
-
+  .contato{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1 red;
+  }
 }
 hr{
   display: none;
